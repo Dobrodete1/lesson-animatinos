@@ -7,3 +7,9 @@ git add -A
 git add .
 
 git commit -m "innit commit"
+
+git remote add origin git@github.com:Dobrodete1/lesson-animatinos.git
+ 
+git remote -v
+
+git push origin master
