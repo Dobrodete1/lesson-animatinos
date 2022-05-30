@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: lightpink;
+    box-shadow: 6px 6px 20px 2px black,
+    6px 6px 20px 3px grey;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes anime{
+    0%{
+        width: 50px;
+        height: 50px;
+        box-shadow: 6px 6px 20px 2px black inset,
+    6px 6px 20px 3px grey inset;
+    }
+    25%{
+        width: 50px;
+        height: 50px;
+        box-shadow: 6px 6px 20px 2px black,
+    6px 6px 20px 3px grey;
+    }
+    50%{
+        width: 50px;
+        height: 300px;
+        box-shadow: 6px 6px 20px 2px black,
+    6px 6px 20px 3px grey;
+    }
+    75%{
+        width: 600px;
+        height: 300px;
+        box-shadow: 6px 6px 20px 2px black,
+    6px 6px 20px 3px grey;
+    }
+    100%{
+        width: 600px;
+        height: 300px;
+        box-shadow: 6px 6px 20px 2px black,
+    6px 6px 20px 3px grey;
+    }
+}
